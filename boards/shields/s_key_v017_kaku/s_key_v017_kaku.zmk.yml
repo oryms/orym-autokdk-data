@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: s_key_v017_kaku
+name: s_key_v017_kaku
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - s_key_v017_kaku_left
+  - s_key_v017_kaku_right
