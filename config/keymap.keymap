@@ -3,6 +3,17 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        MBN1 {
+            bindings = <&mkp MB1>;
+            key-positions = <17 18>;
+            timeout-ms = <0>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
