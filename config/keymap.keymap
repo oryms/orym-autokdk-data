@@ -8,10 +8,10 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W     &kp E     &kp R     &kp T                                    &kp Y           &kp U        &kp I      &kp O    &kp P
-&kp A      &kp S     &kp D     &kp F     &kp G     &kp FSLH             &kp BSLH  &kp H           &lt 2 J      &kp K      &kp L    &kp APOS
-&kp Z      &kp X     &kp C     &kp V     &kp B     &kp LBKT             &kp RBKT  &kp N           &kp M        &kp COMMA  &kp DOT  &kp SEMI
-&kp LCTRL  &kp LALT  &kp LGUI  &mkp MB1  &mkp MB2  &kp TAB   &kp SPACE  &kp BSPC  &kp LEFT_SHIFT  &lt 1 ENTER                      &kp RCTRL
+&kp Q      &kp W     &kp E           &kp R     &kp T                                    &kp Y           &kp U        &kp I      &kp O    &kp P
+&kp A      &kp S     &kp D           &kp F     &kp G     &kp FSLH             &kp BSLH  &kp H           &lt 2 J      &kp K      &kp L    &kp APOS
+&kp Z      &kp X     &kp C           &kp V     &kp B     &kp LBKT             &kp RBKT  &kp N           &kp M        &kp COMMA  &kp DOT  &kp SEMI
+&kp LCTRL  &kp LALT  &lt 3 LEFT_WIN  &mkp MB1  &mkp MB2  &kp TAB   &kp SPACE  &kp BSPC  &kp LEFT_SHIFT  &lt 1 ENTER                      &kp RCTRL
             >;
         };
 
@@ -26,10 +26,10 @@
 
         layer_2 {
             bindings = <
-&kp ESC  &none  &kp F7   &kp F8  &kp F9                         &none             &none    &none              &none  &none
-&none    &none  &kp F4   &kp F5  &kp F6  &kp F12         &none  &kp LG(LC(LEFT))  &none    &kp LG(LC(RIGHT))  &none  &none
-&none    &none  &kp F1   &kp F2  &kp F3  &kp F11         &none  &kp LG(LC(LEFT))  &none    &kp LG(LC(RIGHT))  &none  &none
-&none    &none  &kp F10  &none   &none   &none    &none  &none  &kp INS           &kp DEL                            &none
+&kp ESC  &none  &kp F7   &kp F8  &kp F9                         &kp HOME          &none        &kp END            &none  &none
+&none    &none  &kp F4   &kp F5  &kp F6  &kp F12         &none  &kp LC(LS(TAB))   &none        &kp LC(TAB)        &none  &none
+&none    &none  &kp F1   &kp F2  &kp F3  &kp F11         &none  &kp LG(LC(LEFT))  &kp LG(TAB)  &kp LG(LC(RIGHT))  &none  &none
+&none    &none  &kp F10  &none   &none   &none    &none  &none  &kp INS           &kp DEL                                &none
             >;
         };
 
