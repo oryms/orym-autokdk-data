@@ -10,7 +10,14 @@
         MBN1 {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
-            timeout-ms = <0>;
+            timeout-ms = <80>;
+            layers = <0>;
+        };
+
+        MBN2 {
+            bindings = <&mkp MB2>;
+            key-positions = <17 19>;
+            timeout-ms = <80>;
             layers = <0>;
         };
     };
