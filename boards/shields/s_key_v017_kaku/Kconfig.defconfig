@@ -2,7 +2,7 @@
 if SHIELD_S_KEY_V017_KAKU_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "s_key_v017_kaku"
+    default "s_key"
 
 endif
 
