@@ -39,37 +39,37 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W     &kp E         &kp R          &kp T                                                    &kp Y        &kp U        &kp I        &kp O    &kp P
-&kp A      &kp S     &kp D         &kp F          &kp G     &kp LEFT_BRACKET             &kp RBKT          &kp H        &lt 3 J      &kp K        &kp L    &kp MINUS
-&kp Z      &kp X     &kp C         &kp V          &kp B     &kp SLASH                    &kp SINGLE_QUOTE  &kp N        &kp M        &lt 4 COMMA  &kp DOT  &kp SEMI
-&kp LCTRL  &kp LALT  &kp LEFT_GUI  &mo_mkp 4 MB2  &mkp MB1  &kp TAB           &kp SPACE  &kp BSPC          &lt 2 MINUS  &lt 1 ENTER                        &kp RCTRL
+&kp Q      &kp W     &kp E         &kp R          &kp T                                                    &kp Y        &kp U        &kp I        &kp O      &kp P
+&kp A      &kp S     &kp D         &kp F          &kp G     &kp LEFT_BRACKET             &kp RBKT          &kp H        &lt 3 J      &kp K        &kp L      &kp MINUS
+&kp Z      &kp X     &kp C         &kp V          &kp B     &kp SLASH                    &kp SINGLE_QUOTE  &kp N        &kp M        &lt 4 COMMA  &lt 2 DOT  &mt RIGHT_SHIFT SEMI
+&kp LCTRL  &kp LALT  &kp LEFT_GUI  &mo_mkp 4 MB2  &mkp MB1  &kp TAB           &kp SPACE  &kp BSPC          &lt 2 MINUS  &lt 1 ENTER                          &kp RCTRL
             >;
         };
 
         layer_1 {
             bindings = <
-&kp LS(Q)  &kp LS(W)  &kp LS(E)     &kp LS(R)  &kp LS(T)                                                         &kp LS(Y)    &kp LS(U)             &kp LS(I)      &kp LS(O)    &kp LS(P)
-&kp LS(A)  &kp LS(S)  &kp LS(D)     &kp LS(F)  &kp LS(G)  &kp LS(LEFT_BRACKET)             &kp LS(RBKT)          &kp LS(H)    &kp LS(J)             &kp LS(K)      &kp LS(L)    &kp LS(MINUS)
-&kp LS(Z)  &kp LS(X)  &kp LS(C)     &kp LS(V)  &kp LS(B)  &kp LS(SLASH)                    &kp LS(SINGLE_QUOTE)  &kp LS(N)    &kp LS(M)             &kp LS(COMMA)  &kp LS(DOT)  &kp LS(SEMI)
-&kp LCTRL  &kp LALT   &kp LEFT_GUI  &kp LANG1  &kp LANG2  &kp TAB               &kp SPACE  &kp BSPC              &lt 2 MINUS  &mt LEFT_SHIFT ENTER                              &kp LS(RCTRL)
+&kp LS(Q)  &kp LS(W)  &kp LS(E)     &kp LS(R)  &kp LS(T)                                                         &kp LS(Y)    &kp LS(U)  &kp LS(I)      &kp LS(O)    &kp LS(P)
+&kp LS(A)  &kp LS(S)  &kp LS(D)     &kp LS(F)  &kp LS(G)  &kp LS(LEFT_BRACKET)             &kp LS(RBKT)          &kp LS(H)    &kp LS(J)  &kp LS(K)      &kp LS(L)    &kp LS(MINUS)
+&kp LS(Z)  &kp LS(X)  &kp LS(C)     &kp LS(V)  &kp LS(B)  &kp LS(SLASH)                    &kp LS(SINGLE_QUOTE)  &kp LS(N)    &kp LS(M)  &kp LS(COMMA)  &kp LS(DOT)  &kp LS(SEMI)
+&kp LCTRL  &kp LALT   &kp LEFT_GUI  &kp LANG1  &kp LANG2  &kp TAB               &kp SPACE  &kp BSPC              &lt 2 MINUS  &trans                                 &kp LS(RCTRL)
             >;
         };
 
         layer_2 {
             bindings = <
-&kp GRAVE  &kp LS(EQUAL)  &kp N7  &kp N8          &kp N9                                         &kp HOME         &kp UP          &kp END      &none  &none
-&none      &kp MINUS      &kp N4  &kp N5          &kp N6          &kp EQUAL            &none     &kp LEFT         &kp DOWN        &kp RIGHT    &none  &none
-&none      &kp LS(N8)     &kp N1  &kp N2          &kp N3          &kp DOT              &none     &kp LC(LS(TAB))  &none           &kp LC(TAB)  &none  &none
-&none      &kp SLASH      &kp N0  &kp LANGUAGE_1  &kp LANGUAGE_2  &mkp MB5   &mkp MB4  &kp BSPC  &none            &kp LEFT_SHIFT                      &none
+&kp GRAVE  &kp LS(EQUAL)  &kp N7  &kp N8          &kp N9                                               &kp HOME         &kp UP          &kp END      &none  &none
+&none      &kp MINUS      &kp N4  &kp N5          &kp N6          &kp EQUAL            &kp LS(COMMA)   &kp LEFT         &kp DOWN        &kp RIGHT    &none  &none
+&none      &kp LS(N8)     &kp N1  &kp N2          &kp N3          &kp DOT              &kp LS(PERIOD)  &kp LC(LS(TAB))  &none           &kp LC(TAB)  &none  &none
+&none      &kp SLASH      &kp N0  &kp LANGUAGE_1  &kp LANGUAGE_2  &mkp MB5   &mkp MB4  &kp BSPC        &none            &kp LEFT_SHIFT                      &none
             >;
         };
 
         layer_3 {
             bindings = <
-&kp ESC  &none  &kp F7   &kp F8  &kp F9                         &none             &none        &kp UP             &none  &none
-&none    &none  &kp F4   &kp F5  &kp F6  &kp F12         &none  &none             &none        &kp DOWN           &none  &none
-&none    &none  &kp F1   &kp F2  &kp F3  &kp F11         &none  &kp LG(LC(LEFT))  &kp LG(TAB)  &kp LG(LC(RIGHT))  &none  &none
-&none    &none  &kp F10  &none   &none   &none    &none  &none  &kp INS           &kp DEL                                &none
+&kp ESC  &none  &kp F7   &kp F8  &kp F9                           &none             &none        &kp UP             &none  &none
+&none    &none  &kp F4   &kp F5  &kp F6  &kp F12         &none    &none             &none        &kp DOWN           &none  &none
+&none    &none  &kp F1   &kp F2  &kp F3  &kp F11         &none    &kp LG(LC(LEFT))  &kp LG(TAB)  &kp LG(LC(RIGHT))  &none  &none
+&none    &none  &kp F10  &none   &none   &none    &none  &kp DEL  &kp INS           &kp DEL                                &none
             >;
         };
 
