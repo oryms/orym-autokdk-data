@@ -39,10 +39,10 @@
 
         layer_0 {
             bindings = <
-&kp Q             &kp W     &kp E         &kp R          &kp T                                                    &kp Y        &kp U        &kp I        &kp O       &kp P
-&kp A             &kp S     &kp D         &kp F          &kp G     &kp LEFT_BRACKET             &kp RBKT          &kp H        &lt 3 J      &lt 2 K      &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V          &kp B     &kp SLASH                    &kp SINGLE_QUOTE  &kp N        &kp M        &lt 4 COMMA  &kp PERIOD  &mt RIGHT_SHIFT SEMI
-&kp LCTRL         &kp LALT  &kp LEFT_GUI  &mo_mkp 4 MB2  &mkp MB1  &kp TAB           &kp SPACE  &kp BSPC          &lt 2 MINUS  &lt 1 ENTER                           &kp RCTRL
+&kp Q      &kp W     &kp E         &kp R          &kp T                                                      &kp Y        &kp U        &kp I        &kp O       &kp P
+&kp A      &kp S     &kp D         &kp F          &kp G     &kp LEFT_BRACKET               &kp RBKT          &kp H        &lt 3 J      &lt 2 K      &kp L       &kp MINUS
+&kp Z      &kp X     &kp C         &kp V          &kp B     &kp SLASH                      &kp SINGLE_QUOTE  &kp N        &kp M        &lt 4 COMMA  &kp PERIOD  &mt RIGHT_SHIFT SEMI
+&kp LCTRL  &kp LALT  &kp LEFT_GUI  &mo_mkp 4 MB2  &mkp MB1  &mt LEFT_SHIFT TAB  &kp SPACE  &kp BSPC          &lt 2 MINUS  &lt 1 ENTER                           &kp RCTRL
             >;
         };
 
